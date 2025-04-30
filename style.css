@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(biblioteka.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title{
+    background-color: rgb(54, 53, 53);
+    color:white;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.quotes{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+#authors{
+    color: red;
+    text-transform: uppercase;
+}
